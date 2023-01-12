@@ -47,7 +47,7 @@ def decrypt(text,shift):
 
 
 
-def caesar(text,shift,direction):
+def caesar(text,shift,direction,trash):
     message = ""
     result = 0
     
@@ -57,4 +57,17 @@ def caesar(text,shift,direction):
     elif direction == "decode":
         result = decrypt(text,shift)
         print("Your message decrypt (by Cesar himself ! ) : "+result+"\n")
+    if len(trash)>=1:
+        print(f"these characters are not taken into account : {trash}")
+        
+        
+def test_text(test_in_text):
+    text = ""
+    trash = ""
+    for i in test_in_text:
+            if i in alphabet:
+                text+=i
+            else:
+                trash+=i
+    return text,trash
     
