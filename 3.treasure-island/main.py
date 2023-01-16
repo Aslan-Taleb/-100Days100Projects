@@ -60,7 +60,7 @@ else:
         print(hitman)
         print("Hitman just put a bullet in your head..Game Over")
         wait()
-    elif choice == "Yellow":
+    elif choice == "yellow":
         print(victory)
         print("VICTORY !!!")
         wait()
