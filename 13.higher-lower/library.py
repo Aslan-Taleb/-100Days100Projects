@@ -28,12 +28,11 @@ def score_looser(score):
 
 
 def more_follow(A,B,game):
-    if A['follower_count'] >= B['follower_count'] and game == 'a':
-        return True
-    elif A['follower_count'] <= B['follower_count'] and game == 'b'  :
-        return True
+    if A['follower_count'] >= B['follower_count']:
+        return game == "a"
     else:
-        return False
+        return game == "b"
+       
         
     
 
