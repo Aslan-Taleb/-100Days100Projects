@@ -1,8 +1,11 @@
 from random import *
 from game_data import *
 
-def A_B():
-    A = choice(data)
+def A_B(C):
+    if C != "":
+       A=C
+    else: 
+        A = choice(data)
     data.remove(A)
     B = choice(data)
     return A,B
@@ -25,9 +28,9 @@ def score_looser(score):
 
 
 def more_follow(A,B,game):
-    if A['follower_count'] >= B['follower_count'] and game == 'A':
+    if A['follower_count'] >= B['follower_count'] and game == 'a':
         return True
-    elif A['follower_count'] <= B['follower_count'] and game == 'B'  :
+    elif A['follower_count'] <= B['follower_count'] and game == 'b'  :
         return True
     else:
         return False
