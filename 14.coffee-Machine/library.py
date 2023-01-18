@@ -78,7 +78,6 @@ def cappuccino():
 
 
 def check_ingredients(myInput):
-
     if myInput == "report":
         print(f"the current resource values : \n{resources}")
         return 0
@@ -86,8 +85,48 @@ def check_ingredients(myInput):
         print("machine shutdown...")
         exit()
     elif myInput == "espresso":
-        return espresso()
+            return espresso()
     elif myInput == "latte":
         return latte()
     elif myInput == "cappuccino":
         return cappuccino()
+    
+    
+def money(myInput):
+    coins = 0
+    refund = 0
+    if myInput != "report" and myInput != "off":
+        price = MENU[myInput]['cost']
+        print("Please insert coins.")
+        print("we gonna use 'Algerian dinar'(it's my machine i do what i want)")
+        print(f"Price : {MENU[myInput]['cost']} DA.\n")
+        coins+=int(input("how many piece of 200 DA?: ")) * 200
+        coins+=int(input("how many piece of 100 DA?: ")) * 100
+        coins+=int(input("how many piece of 50 DA?: ")) * 50
+        coins+=int(input("how many piece of 20 DA?: ")) * 20
+        if coins >= price:
+            if check_ingredients(myInput):
+                refund = coins- price
+                if refund > 0: 
+                    print(f"Here is {refund}DA in change.")
+                print(f"Here is your {myInput} ☕️. Enjoy!")
+                resources["money"] += price
+                return True  
+            else:
+                return False
+        else:
+            print("Sorry that's not enough money. Money refunded.")
+    else:
+        check_ingredients(myInput)
+        return 0
+            
+            
+            
+        
+        
+        
+        
+        
+        
+    
+    

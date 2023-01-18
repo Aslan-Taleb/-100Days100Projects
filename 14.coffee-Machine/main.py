@@ -6,6 +6,7 @@ def main():
     while True:
         while myInput != "espresso" and myInput != "latte" and myInput != "cappuccino" and myInput != "report":
             myInput = input("What would you like? (espresso/latte/cappuccino): ").lower()
-            check_ingredients(myInput)
-        myInput = ""
+            money(myInput)
+            myInput = ""
+        
 main()
