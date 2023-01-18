@@ -2,6 +2,7 @@ from Menu import *
 
 
 def espresso():
+    '''Return if there is enought ingredients to do the espresso Boolean'''
     ingr1 = False
     ingr2 = False
     if resources["water"] >= MENU['espresso']['ingredients']['water']:
@@ -20,8 +21,8 @@ def espresso():
         return False
     return ingr1 and ingr2
 
-
 def latte():
+    '''Return if there is enought ingredients to do the latte Boolean'''
     ingr1 = False
     ingr2 = False
     ingr3 = False
@@ -50,6 +51,7 @@ def latte():
 
 
 def cappuccino():
+    '''Return if there is enought ingredients to do the cappuccino Boolean'''
     ingr1 = False
     ingr2 = False
     ingr3 = False
@@ -78,6 +80,7 @@ def cappuccino():
 
 
 def check_ingredients(myInput):
+    '''return If there is enought ingredients Boolean'''
     if myInput == "report":
         print(f"the current resource values : \n{resources}")
         return 0
@@ -93,6 +96,7 @@ def check_ingredients(myInput):
     
     
 def money(myInput):
+    '''Take coins and return the refund a make the drink '''
     coins = 0
     refund = 0
     if myInput != "report" and myInput != "off":
@@ -113,7 +117,8 @@ def money(myInput):
                 resources["money"] += price
                 return True  
             else:
-                return False
+                print(f"Here is your {coins} ☕️. Enjoy!")
+                
         else:
             print("Sorry that's not enough money. Money refunded.")
     else:
