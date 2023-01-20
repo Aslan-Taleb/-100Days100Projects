@@ -10,8 +10,8 @@ def main():
     myColors = color_generate("image.jpg")
     go = 50
     timmy.penup()
-    timmy.setx(-400)
-    timmy.sety(-350)
+    timmy.setx(-100)
+    timmy.sety(-100)
     pos_y = -350
 
     while True:
@@ -21,8 +21,8 @@ def main():
             timmy.dot(random.choice(myColors))
             timmy.penup()
             timmy.goto(pos_x+go, pos_y)
-        timmy.setx(-400)
-        pos_y += 50
+        timmy.setx(-100)
+        pos_y += 10
 
     myScreen()
 
