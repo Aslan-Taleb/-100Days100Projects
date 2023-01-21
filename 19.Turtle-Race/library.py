@@ -27,7 +27,7 @@ def race(turtle_list):
         if turtle.xcor() > 222:
             winner = turtle
             return winner
-        speed = randint(1, 10)
+        speed = randint(1, 100)
         turtle.forward(speed)
 
 
@@ -36,9 +36,14 @@ def winner_bet(winner, theBet, screen):
     screen.bgpic("winner_loser.png")
     winner.goto(0, 0)
     if winner.pencolor() == theBet:
-        winner.write(f"You've won! The {winner.pencolor()} turtle is the winner!\n\n\n\t🤔Why Are we in space 🤔",
+        winner.write(f"You've won! The {winner.pencolor()} turtle is the winner!",
                      False, align="center", font=('italic', 15, 'italic'))
+
     else:
         print()
-        winner.write(f"You've lost! The {winner.pencolor()} turtle is the winner!\n\n\n\t🤔Why Are we in space 🤔", font=(
+        winner.write(f"You've lost! The {winner.pencolor()} turtle is the winner!", font=(
             'italic', 15, 'italic'), align="center")
+    winner.pencolor("white")
+    winner.goto(50, -170)
+    winner.write("\n\n\n\t🤔?Why Are we in space? 🤔",
+                 font=('italic', 8, 'italic'))
