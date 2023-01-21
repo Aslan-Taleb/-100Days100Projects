@@ -1,7 +1,7 @@
 from turtle import *
 from random import *
 
-colors = ["red", "orange", "green", "yellow", "blue", "purple"]
+colors = ["red", "orange", "green", "yellow", "purple"]
 
 
 def turtle_hiring():
@@ -36,9 +36,9 @@ def winner_bet(winner, theBet, screen):
     screen.bgpic("winner_loser.png")
     winner.goto(0, 0)
     if winner.pencolor() == theBet:
-        winner.write(f"You've won! The {winner.pencolor()} turtle is the winner!",
+        winner.write(f"You've won! The {winner.pencolor()} turtle is the winner!\n\n\n\t🤔Why Are we in space 🤔",
                      False, align="center", font=('italic', 15, 'italic'))
     else:
         print()
-        winner.write(f"You've lost! The {winner.pencolor()} turtle is the winner!", font=(
+        winner.write(f"You've lost! The {winner.pencolor()} turtle is the winner!\n\n\n\t🤔Why Are we in space 🤔", font=(
             'italic', 15, 'italic'), align="center")
