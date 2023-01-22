@@ -7,10 +7,10 @@
 I'm doing "100 Days of Code - The Complete Python Pro Bootcamp for 2023" course from Udemy.
 Since my goal is to master Python, I chose to take this course in the hope it would provide more structure and better
 guidance than I was getting while "self-learning".
-While taking part in this course, I have been taking notes and what-not and attempting all of the course projects to the
-best of my abilities.
-I'll be using this repo as a way for myself to access them as, if and when I need them.
+
+
 100 projects in 100 days. All the personal projects for Great professor and great course, really recommend it:
+
 [100 Days of Code - The Complete Python Pro Bootcamp for 2021](https://www.udemy.com/course/100-days-of-code).
 
 ![wallpaper](ressources/wallpaper.png)
