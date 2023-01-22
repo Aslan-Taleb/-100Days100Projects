@@ -1,9 +1,11 @@
-## Snake
+
+# Snake
+
 Aslan Taleb
 
 This Snake Game  was made using Python and Turtle.
 
-## Setup:
+# Setup:
 
 to run the game, download the game folder. Then, you will need to install the modules that are needed to run the game.
 you will need to download 'requirements.txt' :  
