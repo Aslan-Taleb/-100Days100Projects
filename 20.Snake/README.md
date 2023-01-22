@@ -11,8 +11,6 @@ to run the game :
 
  •download the game folder.
 
- •install the modules that are needed to run the game.
-
    ➝you will need to download 'requirements.txt' :  
   
    ➝type this command in the command prompt : "pip install -r requirements.txt"
