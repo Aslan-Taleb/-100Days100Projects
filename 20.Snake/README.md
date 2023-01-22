@@ -5,7 +5,8 @@ Aslan Taleb
 
 This Snake Game  was made using Python and Turtle.
 
-![Alt text](screen/screen.png?raw=true Title = 'https://www.youtube.com/watch?v=Q1daOT1rUiU')
+![Alt text](screen/screen.png?raw=true)
+[![Watch the video](https://img.youtube.com/vi/nTQUwghvy5Q/default.jpg)]([https://youtu.be/nTQUwghvy5Q](https://www.youtube.com/watch?v=Q1daOT1rUiU))
 
 # Setup:
 
