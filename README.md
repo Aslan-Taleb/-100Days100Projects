@@ -4,12 +4,6 @@
 </h1>
 </p>
 
-<p align="center">
-    <img src="https://img.shields.io/github/last-commit/lenargasimov/100-days-of-python?style=plastic" alt="GitHub last commit">
-    <img src="https://img.shields.io/github/forks/lenargasimov/100-days-of-python.svg" alt="">
-    <img src="https://img.shields.io/github/stars/lenargasimov/100-days-of-python.svg" alt="">
-</p>
-
 I'm completed in "100 Days of Code - The Complete Python Pro Bootcamp for 2021" course from Udemy.
 Since my goal is to master Python, I chose to take this course in the hope it would provide more structure and better
 guidance than I was getting while "self-learning".
