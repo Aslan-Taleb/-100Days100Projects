@@ -15,4 +15,4 @@ to run the game :
   
    ➝type this command in the command prompt : "pip install -r requirements.txt"
   
-•Enjoy the game ;)
+Enjoy the game ;)
