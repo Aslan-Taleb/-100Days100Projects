@@ -13,7 +13,7 @@ If you want to get the Same Score Listen to This : https://www.youtube.com/watch
 
 to run the game : 
 
- •download the game folder.
+ •download the game folder. ( a Download Link :  https://minhaskamal.github.io/DownGit/#/home?url=https://github.com/Aslan-Taleb/100Days100Projects/tree/main/20.Snake )
 
    ➝you will need to download 'requirements.txt' :  
   
