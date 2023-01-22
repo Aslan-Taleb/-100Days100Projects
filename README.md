@@ -31,7 +31,7 @@ guidance than I was getting while "self-learning".
 - [Day 13](day13): Debugging: How to Find and Fix Errors in your Code
 - [Day 14](day14): Higher Lower Game Project
 
-## 🏋🏻‍♂️ Intermediate
+## 🏋🏻‍♂️ Intermediate : 
 - [Day 15](day15): Local Development Environment Setup & the Coffee Machine Project
 - [Day 16](day16): Object Oriented Programming (OOP)
 - [Day 17](day17): The Quiz Project & the Benefits of OOP
