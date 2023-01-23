@@ -5,7 +5,7 @@ Aslan Taleb
 
 This Pong Game  was made using Python and Turtle.
 
-![Alt text](screen/screen.PNG? raw=true)
+![Alt text](screen/screen.PNG)
 
 # Setup:
 
