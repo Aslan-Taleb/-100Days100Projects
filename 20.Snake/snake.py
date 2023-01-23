@@ -22,7 +22,7 @@ class Snake:
         part_snake.speed("fastest")
         if len(self.snake) > 0:
             part_snake.goto(self.snake[len(
-                self.snake)-1].xcor()-stick, self.snake[len(self.snake)-1].ycor()-stick)
+                self.snake)-1].xcor()-stick, 0)
         else:
             part_snake.goto(0, 0)
         self.snake.append(part_snake)
