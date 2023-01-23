@@ -9,15 +9,11 @@ screen.setup(width=600, height=600)
 screen.tracer(0)
 screen.title("Turtle Crossing")
 screen.listen()
-screen.addshape("car.png")
 
 
 timmy = Player()
 cars = CarManager()
 level = LevelBoard()
-image = "car.png"
-screen.addshape(image)
-timmy.shape(image)
 
 screen.onkey(timmy.move, "Up")
 screen.onkey(timmy.move, "space")

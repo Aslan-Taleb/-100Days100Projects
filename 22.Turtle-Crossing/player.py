@@ -11,6 +11,7 @@ class Player(Turtle):
         self.pos_x = STARTING_POSITION[0]
         self.pos_y = STARTING_POSITION[1]
         self.setheading(90)
+        self.shape("turtle")
         self.penup()
         self.goto(self.pos_x, self.pos_y)
 
