@@ -20,10 +20,10 @@ class Paddle(Turtle):
 
     def up(self):
         if self.y_pos <= 250:
-            self.y_pos += 20
+            self.y_pos += 20 * 2
             self.goto(self.x_pos, self.y_pos)
 
     def down(self):
         if self.y_pos >= -220:
-            self.y_pos -= 20
+            self.y_pos -= 20 * 2
             self.goto(self.x_pos, self.y_pos)
