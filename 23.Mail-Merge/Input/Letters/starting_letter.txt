@@ -1,0 +1,9 @@
+Dear [name],
+
+We have received your request for a 'Python' IT developer internship and we thank you for your interest in our company.
+
+We regret to inform you that we have chosen another candidate.
+
+However, we would like to wish you good luck in your endeavours.
+
+Sincerely,

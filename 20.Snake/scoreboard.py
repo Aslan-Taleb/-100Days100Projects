@@ -32,11 +32,10 @@ class Scoreboard(Turtle):
                    font=FONT)
 
     def read_file_score(self):
-        file = open('score_max.txt', "r")
-        score_in_the_file = file.read()
-        if score_in_the_file == '':
-            score_in_the_file = 0
-        file.close()
+        with open("score_max.txt", mode="r") as file:
+            score_in_the_file = file.read()
+            if score_in_the_file == '':
+                score_in_the_file = 0
         return int(score_in_the_file)
 
     def print_max_score(self):
@@ -51,6 +50,5 @@ class Scoreboard(Turtle):
             self.update_file_score()
 
     def update_file_score(self):
-        file = open('score_max.txt', "w")
-        file.write(str(self.score_max))
-        file.close()
+        with open('score_max.txt', "w") as file:
+            file.write(str(self.score_max))
