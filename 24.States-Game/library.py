@@ -25,9 +25,8 @@ def learn(guessed_states):
     state_to_learn = []
     message = "Hey,you haven't found a 'few' states, I'll put you the list to learn what you have left : \n"
     all_states = data['state'].to_list()
-    for state in all_states:
-        if state not in guessed_states:
-            state_to_learn.append(state)
+    state_to_learn = [
+        state for state in all_states if state not in guessed_states]
     for i in state_to_learn:
         message += i + "\n"
     message += "Good Luck ! "
