@@ -12,10 +12,14 @@ def get_name():
 
 def phonetic():
     dico = dictionary_from_data_frame()
-    word = get_name().upper()
+    word = get_name().upper().replace(" ","")
     #result = [value for (key,value) in dico.items() if key in word]
-    result = [dico[letter] for letter in word]
-    print(result)
+    try:
+        result = [dico[letter] for letter in word]
+    except KeyError:
+        print("You must provide a name not numbers.")
+    else:
+        print(result)
 
 
 

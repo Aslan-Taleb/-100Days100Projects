@@ -1,10 +1,9 @@
 from library import *
 from art import *
 
-
+print(phone)
 def main():
-    print(phone)
     phonetic()
 
-
-main()
+while True:
+    main()
