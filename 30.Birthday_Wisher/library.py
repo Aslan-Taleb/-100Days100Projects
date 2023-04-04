@@ -78,7 +78,7 @@ def pick_letter(name):
 # 4. Send the letter generated in step 3 to that person's email address.
 def send(file, to_who):
     my_email = "aslantalebselim@gmail.com"
-    password = "rwgpiyfpaojwqxpw"
+    password = "tu_pense"
     # Connect to the SMTP server using a secure connection
     smtp_server = "smtp.gmail.com"
     smtp_port = 587
