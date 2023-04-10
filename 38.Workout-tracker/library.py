@@ -1,38 +1,43 @@
+import os
+import requests
 from datetime import datetime
-APP_ID = "***"
-API_KEY = "****"
+
+# ENVIRONMENT VARIABLES
+APP_ID = os.environ["APP_ID"]
+API_KEY = os.environ["API_KEY"]
+TOKEN_SHEETY = os.environ["TOKEN_SHEETY"]
 GENDER = "male"
 WEIGHT_KG = 80
 AGE = 21
 HEIGHT_CM = 176
 LINK_EXERCICE = "https://trackapi.nutritionix.com/v2/natural/exercise"
 end_point_row = "https://api.sheety.co/52e4797d4ba4a030a600379c091918dd/myWorkouts/workouts"
-import requests
 
 
 def get_user_info():
     while True:
         weight = float(input("Quel est votre poids en kilogrammes ? "))
-        if weight >= 30 and weight <= 300:
+        if 30 <= weight <= 300:
             break
         else:
             print("Veuillez entrer un poids valide entre 30 et 300 kg.")
 
     while True:
         height = float(input("Quelle est votre taille en centimètres ? "))
-        if height >= 60 and height <= 250:
+        if 60 <= height <= 250:
             break
         else:
             print("Veuillez entrer une taille valide entre 60 et 250 cm.")
 
     while True:
         age = int(input("Quel est votre âge ? "))
-        if age >= 8 and age <= 120:
+        if 8 <= age <= 120:
             break
         else:
             print("Veuillez entrer un âge valide entre 8 et 120 ans.")
 
-    return (weight, height, age)
+    return weight, height, age
+
 
 def get_exercice():
     exercise_text = input("Dites-moi quels exercices vous avez faits : ")
@@ -51,9 +56,10 @@ def get_exercice():
     response = response.json()
     return response
 
+
 def add_row(exercise_name, exercise_duration, exercise_calories):
     headers = {
-        "Authorization": "Bearer ******",
+        "Authorization": f"Bearer {TOKEN_SHEETY}",
         "Content-Type": "application/json",
         "cache-control": "no-cache"
     }
@@ -68,5 +74,5 @@ def add_row(exercise_name, exercise_duration, exercise_calories):
             "calories": exercise_calories
         }
     }
-    sheet_response = requests.post(end_point_row, json=inputs, headers=headers)
+    requests.post(end_point_row, json=inputs, headers=headers)
     print("L'exercice a été enregistré avec succès !")
