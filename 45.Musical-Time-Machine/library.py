@@ -35,14 +35,17 @@ def get_top100(date):
         titles.append(i.getText(strip=True))
     titles = [title.replace('\n', '').replace('\t', '') for title in titles]
     return titles
+
+
 def check_playlist(playlist_name):
-    id = None
+    playlist_id = None
     playlists = sp.current_user_playlists(limit=50)
     for playlist in playlists['items']:
         if playlist['name'] == playlist_name:
-            id = playlist['id']
+            playlist_id = playlist['id']
             break
-    return id
+    return playlist_id
+
 
 def add_element_playlist(playlist_name, songs):
     id = None
