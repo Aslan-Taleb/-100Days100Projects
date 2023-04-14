@@ -13,7 +13,7 @@ guidance than I was getting while "self-learning".
 
 [100 Days of Code - The Complete Python Pro Bootcamp for 2023](https://www.udemy.com/course/100-days-of-code).
 
-![wallpaper](ressources/wallpaper.png)
+![wallpaper]([ressources/wallpaper.png](https://storage.googleapis.com/replit/images/1558707830151_ffebedeee63ca207c0e24dd3c53f3357.pn))
 
 ## 👨🏻‍🎓 Beginner : 
 - [Day 1](day01): Working with Variables in Python to Manage Data
