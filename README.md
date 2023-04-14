@@ -9,9 +9,8 @@ Since my goal is to master Python, I chose to take this course in the hope it wo
 guidance than I was getting while "self-learning".
 
 
-100 projects in 100 days.really recommend it:
-
-[100 Days of Code - The Complete Python Pro Bootcamp for 2023](https://www.udemy.com/course/100-days-of-code).
+100 projects in 100 days. All the personal projects for Great professor and great course, really recommend it:
+[100 Days of Code - The Complete Python Pro Bootcamp for 2021](https://www.udemy.com/course/100-days-of-code).
 
 ![A beautiful wallpaper](ressources/wallpaper.png)
 
