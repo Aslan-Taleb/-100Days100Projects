@@ -13,7 +13,7 @@ guidance than I was getting while "self-learning".
 
 [100 Days of Code - The Complete Python Pro Bootcamp for 2023](https://www.udemy.com/course/100-days-of-code).
 
-![A beautiful wallpaper](https://storage.googleapis.com/replit/images/1558707830151_ffebedeee63ca207c0e24dd3c53f3357.pn)
+![A beautiful wallpaper](./resources/wallpaper.png)
 
 
 ## 👨🏻‍🎓 Beginner : 
