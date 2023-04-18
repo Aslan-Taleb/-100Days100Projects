@@ -1,0 +1,22 @@
+{% extends 'bootstrap/base.html' %}
+{% import "bootstrap/wtf.html" as wtf %}
+
+{% block title %}
+Login - One Piece
+{% endblock %}
+
+{% block content %}
+<div class="container">
+    <div class="row justify-content-center">
+        <div class="col-md-6">
+            <div class="card border-0 shadow my-5">
+                <div class="card-body p-5">
+                    <img src="https://i.ytimg.com/vi/XM79rJcYye4/maxresdefault.jpg" class="img-fluid mb-5 mx-auto d-block" alt="One Piece Image">
+                    <h2 class="card-title text-center mb-5">Login to One Piece World</h2>
+                    {{ wtf.quick_form(form) }}
+                </div>
+            </div>
+        </div>
+    </div>
+</div>
+{% endblock %}

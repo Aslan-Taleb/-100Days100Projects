@@ -1,0 +1,14 @@
+{% extends 'bootstrap/base.html' %}
+
+{% block title %}One Piece{% endblock %}
+
+{% block content %}
+<div class="jumbotron text-center">
+	<h1>Welcome to One Piece Secrets</h1>
+	<img src="https://images6.alphacoders.com/911/thumb-1920-911401.jpg" alt="One Piece Image" class="mx-auto d-block">
+	<p>Are you ready to discover THE secret?</p>
+	<a href="{{ url_for('login') }}">
+		<button class="btn btn-primary btn-lg mx-auto d-block">Login</button>
+	</a>
+</div>
+{% endblock %}

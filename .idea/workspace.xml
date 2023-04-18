@@ -2,17 +2,15 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="5fea085d-e958-4fdc-9d1b-e5aabef819da" name="Changes" comment="">
-      <change afterPath="$PROJECT_DIR$/25.NATO-Alphabet/.idea/.gitignore" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/25.NATO-Alphabet/.idea/25.NATO-Alphabet.iml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/25.NATO-Alphabet/.idea/inspectionProfiles/profiles_settings.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/25.NATO-Alphabet/.idea/misc.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/25.NATO-Alphabet/.idea/modules.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/25.NATO-Alphabet/.idea/vcs.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/25.NATO-Alphabet/library.py" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/25.NATO-Alphabet/NATO-alphabet-start/main.py" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/25.NATO-Alphabet/NATO-alphabet-start/nato_phonetic_alphabet.csv" beforeDir="false" afterPath="$PROJECT_DIR$/25.NATO-Alphabet/nato_phonetic_alphabet.csv" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/25.NATO-Alphabet/main.py" beforeDir="false" afterPath="$PROJECT_DIR$/25.NATO-Alphabet/main.py" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/ressources/wallpaper.png" beforeDir="false" />
+      <change afterPath="$PROJECT_DIR$/56.Tindog/index.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/57.Blog-upgrade-Bootstrap/server.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/57.Blog-upgrade-Bootstrap/templates/about.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/57.Blog-upgrade-Bootstrap/templates/contact.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/57.Blog-upgrade-Bootstrap/templates/footer.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/57.Blog-upgrade-Bootstrap/templates/header.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/57.Blog-upgrade-Bootstrap/templates/index.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/57.Blog-upgrade-Bootstrap/templates/navbar.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/57.Blog-upgrade-Bootstrap/templates/post.html" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -35,6 +33,7 @@
     "RunOnceActivity.OpenProjectViewOnStart": "true",
     "RunOnceActivity.ShowReadmeOnStart": "true",
     "dart.analysis.tool.window.visible": "false",
+    "last_opened_file_path": "C:/Users/AslaN/Documents/100Days100Projects/WTF",
     "settings.editor.selected.configurable": "preferences.lookFeel"
   }
 }]]></component>
