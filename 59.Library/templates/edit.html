@@ -1,0 +1,37 @@
+{% extends 'bootstrap/base.html' %} {% block styles %} {{ super() }}
+<link
+  rel="stylesheet"
+  href="{{ url_for('static', filename='css/styles.css') }}"
+/>
+{% endblock %} {% block title %} {{ book_to_change.title }} - Edit Rating {%
+endblock %} {% block head %} {{ super() }}
+<link
+  rel="icon"
+  href="{{ url_for('static', filename='logo.ico') }}"
+  type="image/x-icon"
+/>
+{% endblock %} {% block content %}
+<div class="container">
+  <h1 class="my-5">{{ book_to_change.title }}</h1>
+  <h2 class="mb-4">Old Rating: {{ book_to_change.rating }}</h2>
+  <form method="POST" action="{{ url_for('edit', id=book_to_change.id) }}">
+    <div class="form-group">
+      <h3 for="rating" class="form-label">New Rating : (/10)</h3>
+      <div class="input-group">
+        <input
+          type="number"
+          class="form-control"
+          id="rating"
+          name="rating"
+          step="0.1"
+          min="0"
+          max="10"
+          value="{{ book_to_change.rating }}"
+          required
+        />
+      </div>
+    </div>
+    <button type="submit" class="btn btn-primary">Update Rating</button>
+  </form>
+</div>
+{% endblock %}

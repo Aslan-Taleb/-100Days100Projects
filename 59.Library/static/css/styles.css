@@ -1,0 +1,87 @@
+/* Set background color */
+body {
+   background-image: url('https://images.unsplash.com/photo-1481627834876-b7833e8f5570?ixlib=rb-4.0.3&ixid=MnwxMjA3fDB8MHxzZWFyY2h8Mnx8bGlicmFyeXxlbnwwfHwwfHw%3D&w=1000&q=80');
+  background-repeat: no-repeat;
+  background-size: cover;
+   font-family: 'Montserrat, sans-serif';
+  color:white;
+}
+
+/* Add padding and margin to container */
+.container {
+  padding-top: 50px;
+  margin: 0 auto;
+  max-width: 800px;
+}
+
+/* Add styling to header */
+h1 {
+  font-size: 36px;
+  font-weight: 700;
+  margin-bottom: 30px;
+
+}
+
+/* Add styling to book list */
+ul.list-group {
+  margin-bottom: 30px;
+}
+
+/* Add styling to book items */
+li.list-group-item {
+  background-color: #fff;
+  border: none;
+  border-radius: 8px;
+  margin-bottom: 10px;
+  padding: 20px;
+  box-shadow: 0 0 10px rgba(0, 0, 0, 0.2);
+}
+
+/* Add styling to book title */
+li.list-group-item span {
+  font-size: 20px;
+  font-weight: 600;
+  color: #303030;
+}
+
+/* Add styling to book rating */
+li.list-group-item span.badge {
+  font-size: 14px;
+  font-weight: 500;
+  color: #fff;
+  background-color: #28a745;
+  margin-left: 10px;
+}
+
+/* Add styling to book buttons */
+.btn-group {
+  margin-left: 10px;
+}
+
+.btn-primary,
+.btn-danger {
+  font-size: 14px;
+  font-weight: 500;
+  padding: 10px 16px;
+  margin-left: 10px;
+}
+
+.btn-primary:hover,
+.btn-danger:hover {
+  opacity: 0.8;
+}
+
+/* Add styling to add book button */
+.btn-primary.my-3 {
+  font-size: 18px;
+  font-weight: 600;
+  padding: 16px 32px;
+  background-color: #007bff;
+  border: none;
+  border-radius: 8px;
+  box-shadow: 0 0 10px rgba(0, 0, 0, 0.2);
+}
+
+.btn-primary.my-3:hover {
+  background-color: #0069d9;
+}
