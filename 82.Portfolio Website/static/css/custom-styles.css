@@ -1,0 +1,455 @@
+/* HOMEPAGE */
+body {
+
+    box-sizing: border-box;
+    font-family: 'Orbitron', sans-serif;
+    font-size: 1.3rem;
+    text-align: center;
+}
+
+p {
+    line-height: 2;
+    font-family: 'Red Hat Display', sans-serif;
+    text-align: justify;
+
+}
+
+h2 {
+    font-family: 'Red Hat Display', sans-serif;
+    font-weight: 600;
+    padding: 1rem 0;
+}
+
+h3 {
+    font-family: 'Red Hat Display', sans-serif;
+}
+
+h4 {
+    margin-top: 1.8vh
+}
+
+.say_pro {
+    text-decoration: underline;
+}
+
+section {
+    width: 100%;
+}
+
+hr {
+    border: 1px rgba(255, 255, 255, 0.1);
+}
+
+/* NAVBAR */
+
+.navbar {
+    font-size: 1.7rem;
+}
+
+.nav-item {
+    margin: 0 0 0 1.5rem;
+}
+
+ul.navbar-nav a:hover {
+    color: #9BA4B5 !important;
+
+}
+
+.nav-link {
+    background-color: black;
+}
+
+
+
+/* FOOTER */
+
+.a-social {
+    color: #FAFAFA;
+    font-family: 'Orbitron', sans-serif;
+    font-size: 0.9rem;
+    text-decoration: none;
+}
+
+.footer-section {
+    padding-top: 15%;
+    position: relative;
+    width: 100%;
+}
+
+footer .list-inline {
+    margin: 0;
+    padding: 0;
+}
+
+footer .copyright {
+    font-size: 14px;
+    margin-bottom: 0;
+    text-align: center;
+}
+
+.index {
+    position: relative;
+    min-height: 5%;
+    color: white;
+    padding-top: 18vh;
+    padding-left: 4.5vh;
+    padding-bottom: 0;
+    font-family: 'Orbitron', sans-serif;
+}
+
+.index-wrap {
+    text-align: center;
+    padding-bottom: 2.5rem;
+}
+
+.footer {
+    position: absolute;
+    bottom: 0;
+    width: 100%;
+    height: 2.5rem;
+}
+
+.name {
+    position: fixed;
+    bottom: 10vh;
+    margin-left: 15vh;
+    color: #FF0303;
+    font-family: 'Orbitron', sans-serif;
+    font-weight: 600;
+    font-size: 1rem;
+    text-decoration: none;
+}
+
+.name:hover {
+    color: white;
+    text-decoration: none;
+}
+
+/* HOME PAGE */
+
+.main {
+    color: white;
+    padding-top: 3%;
+    padding-left: 4.5vh;
+
+    font-family: 'Orbitron', sans-serif;
+}
+
+.main-p {
+    font-family: 'Red Hat Display', sans-serif;
+    font-size: 1.4rem;
+}
+
+.copyright-main {
+    font-size: 12px;
+    right: 1vh;
+    margin-top: 10vh;
+    text-align: right;
+}
+
+.subtext {
+    font-size: 3.5rem;
+    width: 100%;
+    max-width: 100%;
+
+}
+
+.right-paragraph {
+    margin-top: 28vh;
+    text-align: justify;
+    padding: 1.5rem 1.5rem 0 0;
+    z-index: 1;
+    position: relative;
+}
+
+.stack {
+    display: grid;
+}
+
+.stack h1 {
+    font-weight: bold;
+    grid-row-start: 1;
+    grid-column-start: 1;
+    font-size: 5rem;
+    --stack-height: calc(100% / var(--stacks) - 1px);
+    --inverse-index: calc(calc(var(--stacks) - 1) - var(--index));
+    --clip-top: calc(var(--stack-height) * var(--index));
+    --clip-bottom: calc(var(--stack-height) * var(--inverse-index));
+    clip-path: inset(var(--clip-top) 0 var(--clip-bottom) 0);
+    animation: stack 740ms cubic-bezier(.46, .29, 0, 1.24) 2 backwards calc(var(--index) * 520ms), glitch 3s ease infinite 2s alternate-reverse;
+}
+
+.stack h1:nth-child(odd) {
+    --glitch-translate: 8px;
+}
+
+.stack h1:nth-child(even) {
+    --glitch-translate: -8px;
+}
+
+
+.stack h1:hover {
+    animation: stack 340ms cubic-bezier(0, .2, 0, 1.2) 2 backwards calc(var(--index) * 520ms), glitch 1s ease infinite 0.2s alternate-reverse;
+}
+
+.stack a {
+    display: inline-block;
+    width: 100%;
+    height: 100%;
+    cursor: pointer;
+}
+
+.stack a:hover {
+    animation: stack 440ms cubic-bezier(0, .2, 0, 1.2), glitch 2s ease infinite 0.2s alternate-reverse;
+}
+
+.stack h1:hover:nth-child(odd) {
+    --glitch-translate: 50px;
+}
+
+.stack h1:hover:nth-child(even) {
+    --glitch-translate: -50px;
+}
+
+@keyframes stack {
+    0% {
+        opacity: 0;
+        transform: translateX(-50%);
+        text-shadow: -2px 3px 0 #B20000, 2px -3px 0 #2E2E2E;
+    }
+
+    ;
+
+    60% {
+        opacity: 0.5;
+        transform: translateX(50%);
+    }
+
+    80% {
+        transform: none;
+        opacity: 1;
+        text-shadow: 2px -3px 0 #B20000, -2px 3px 0 #2E2E2E;
+    }
+
+    100% {
+        text-shadow: none;
+    }
+}
+
+@keyframes glitch {
+    0% {
+        text-shadow: -2px 3px 0 #B20000, 2px -3px 0 #2E2E2E;
+        transform: translate(var(--glitch-translate));
+
+    }
+
+    2% {
+        text-shadow: 2px -3px 0 #B20000, -2px 3px 0 #2E2E2E;
+
+    }
+
+    4%,
+    100% {
+        text-shadow: none;
+        transform: none;
+
+    }
+}
+
+/* RIBBONS */
+
+#btn1 {
+    top: 100px;
+}
+
+#btn2 {
+    top: 200px;
+}
+
+div.button-social {
+    background-color: white;
+
+    opacity: 0.8;
+    color: #146C94;
+    border: none;
+    border-radius: 10px;
+    width: 500px;
+    height: 50px;
+    position: fixed;
+    right: -435px;
+    transition: .7s ease;
+    text-align: center;
+}
+
+div.button-social:hover {
+    background-color: black;
+    color: white;
+    position: fixed;
+    right: 0px;
+    width: 400px;
+    border-radius: 0px;
+    box-shadow: 0px 5px 0px #146C94;
+    ;
+}
+
+div.button-social:active {
+    background-color: rgba(255, 255, 255, 0.1);
+    transition: 0s;
+    color: rgba(255, 255, 255, 0.1);
+}
+
+/* ABOUT PAGE */
+
+.subtitle {
+    font-weight: 600;
+}
+
+/* CONTACT PAGE */
+
+.contact {
+    font-size: 4rem;
+}
+
+.floating-label-form-group {
+    margin-bottom: 0;
+    padding-bottom: 0.5em;
+    border-bottom: 1px solid #146C94;
+}
+
+.btn {
+    margin-top: 2%;
+    background-color: #146C94;
+}
+
+.form-control {
+    font-family: 'Red Hat Display', sans-serif;
+    background-color: #2E3840;
+}
+
+.form-control:focus {
+    background-color: #3B3B3B;
+}
+
+.platform {
+    margin-left: 2%;
+    margin-right: 2%;
+    color: #146C94;
+    font-size: 1.5rem;
+    line-height: 3rem;
+}
+
+.platform:hover {
+    color: white;
+    text-decoration: none;
+}
+
+.video-background {
+    position: fixed;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+    z-index: -1;
+}
+
+.video-background video {
+    object-fit: cover;
+    width: 100%;
+    height: 100%;
+}
+
+@media only screen and (max-width: 1100px) {
+    .ribbons {
+        display: none;
+    }
+
+    h1.contact {
+        font-size: 2rem;
+    }
+
+    body {
+        text-align: center;
+    }
+
+    .main-p {
+        font-size: 2rem;
+    }
+}
+
+@media only screen and (max-width: 768px) {
+
+    p,
+    h2,
+    h3,
+    h4 {
+        padding: 0.2rem 2rem;
+    }
+
+    h1.contact {
+        font-size: 2rem;
+    }
+
+    .index {
+        padding: 3rem 1rem;
+    }
+}
+
+.card-text {
+    color: black;
+}
+
+.project-poster {
+    position: relative;
+    display: inline-block;
+    width: 300px;
+    height: 400px;
+    margin: 1%;
+    background-size: cover;
+    background-position: center;
+    transition: transform 0.5s;
+    margin-left: 5%;
+}
+
+.project-poster .poster-back {
+    position: absolute;
+    top: 0;
+    left: 0;
+    right: 0;
+    bottom: 0;
+    background-color: rgba(0, 0, 0, 0.8);
+    color: white;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    opacity: 0;
+    transition: opacity 0.5s;
+}
+
+.project-poster:hover .poster-back {
+    opacity: 1;
+}
+
+.project-poster h3 {
+    margin-top: 0;
+}
+
+.project-poster a {
+    color: white;
+    text-decoration: none;
+    margin-top: 10px;
+    border: 1px solid white;
+    padding: 5px 10px;
+    transition: background-color 0.5s, color 0.5s;
+}
+
+.project-poster a:hover {
+    background-color: white;
+    color: black;
+}
+
+.row {
+    display: flex;
+    flex-wrap: wrap;
+    margin-left: 2%;
+}

@@ -1,0 +1,38 @@
+{% include "header.html" %}
+
+<div class="container index">
+<div class="video-background">
+     <video autoplay loop muted>
+        <source src="/static/vid/bg.mp4" type="video/mp4">
+    </video>
+    </div>
+
+    <div class="ribbons">
+        <a href="https://github.com/Aslan-Taleb" target="_blank">
+            <div id="btn1" class="button-social">
+                <h4>GitHub.</h4>
+            </div>
+        </a>
+
+        <a href="https://www.linkedin.com/in/aslan-taleb/" target="_blank">
+            <div id="btn2" class="button-social">
+                <h4>LinkedIn.</h4>
+            </div>
+        </a>
+    </div>
+    <div class="index-wrap">
+                <div class="stack" style="--stacks: 3;">
+                    <h1 style="--index: 0;">AslaN,</h1>
+                    <h1 style="--index: 1;">AslaN,</h1>
+                    <h1 style="--index: 2;">AslaN,</h1>
+                </div>
+                <span class="subtext">A <span class="say_pro">pro</span>grammer.</span>
+            </div>
+                      <a class="platform" href="/static/images/CV.pdf">CV</a>   
+          <a
+            class="platform"
+            href="{{ url_for('portfolio') }}"
+            >Portfolio</a
+          >
+</div>
+{% include "footer.html" %}
