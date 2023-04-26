@@ -1,5 +1,7 @@
 ## Morse Code Translator
 
+![Image of My Project](https://i.imgur.com/G61LRjw.png)
+
 A Python script that translates text to Morse code and vice versa, and can play the Morse code audio.
 
 ## Installation
@@ -29,4 +31,7 @@ This script uses the following libraries:
 
 pyttsx3 - to play the Morse code audio
 pyperclip - to copy the output to the clipboard
+
+Contact
+If you have any questions or suggestions, feel free to contact me at aslantalebselim@gmail.com
 
