@@ -1,5 +1,7 @@
 ## A website to show off my skills and the things I built.
 This project is a website designed to showcase your skills and the projects you've built. The website is built using Flask and hosted on the OnRender platform.
+
+
 Link : https://aslan-taleb.onrender.com/
 
 ## Installation and Setup
@@ -26,4 +28,4 @@ The portfolio page (/portfolio) which displays a list of all the projects you've
 You can also access the contact page (/contact) which allows visitors to send you a message.
 
 ## Contact
-If you have any questions or suggestions, feel free to contact me at myemail@example.com.
+If you have any questions or suggestions, feel free to contact me at aslantalebselim@gmail.com
