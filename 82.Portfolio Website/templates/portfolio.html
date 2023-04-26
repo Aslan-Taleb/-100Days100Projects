@@ -39,28 +39,25 @@
           >account.
         </p>
         <hr />
+      </div>
+      <div class="col-lg-12">
+        <h2>Portfolio</h2>
+        <div class="row">
+          {% for project in all_projects %}
+          <div
+            class="project-poster col-md-4"
+            style="background-image: url({{ project['picture_href'] }});"
+          >
+            <div class="poster-back">
+              <h3>{{ project['title'] }}</h3>
+              <a href="{{ project['work_href'] }}">View on GitHub</a>
+            </div>
           </div>
-          <h2>Portfolio</h2>
-          <div class="row">
-              <div
-                class="project-poster col-md-4"
-                style="
-                  background-image: url('');
-                "
-              >
-                <div class="poster-back">
-                  <h3>Project 1</h3>
-                  <p>A brief description of project 1.</p>
-                  <a href="https://github.com/username/project1"
-                    >View on GitHub</a
-                  >
-                </div>
-              </div>
-              <br>
-             <hr />
-            {% include "footer.html" %}
-          </div>
+          {% endfor %}
         </div>
+        <br>
+        <hr />
+        {% include "footer.html" %}
       </div>
     </div>
   </div>

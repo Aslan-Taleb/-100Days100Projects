@@ -20,7 +20,12 @@
   </div>
 </div>
 <div class="container main">
+{% if not msg_sent %}
   <h1 class="contact">Let's work together!</h1>
+{% else %}
+  <h1>Message sent. Thanks!</h1>
+  <h2>I will answer you as soon as possible.</h2>
+{% endif %}
 </div>
 <div></div>
 <div class="container main">
@@ -44,6 +49,8 @@
           message in messages %}
           <p style="color: red">{{ message }}</p>
           {% endfor %} {% endif %} {% endwith %}
+
+
           <form
             name="sentMessage"
             id="contactForm"
@@ -118,10 +125,7 @@
               Send
             </button>
           </form>
-          {% if msg_sent: %}
-          <p>Message sent. Thanks!</p>
-          <p>I will answer you as soon as possible.</p>
-          {% endif %}
+
           <h3>
             You can also reach me through any of the platforms listed below:
           </h3>
