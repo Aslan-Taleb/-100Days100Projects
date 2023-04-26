@@ -1,0 +1,85 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="AutoImportSettings">
+    <option name="autoReloadType" value="SELECTIVE" />
+  </component>
+  <component name="ChangeListManager">
+    <list default="true" id="f1c862cf-06af-4903-b396-fcad83c6c176" name="Changes" comment="">
+      <change afterPath="$PROJECT_DIR$/library.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/main.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../11.BlackJack(BASIC)/library.py" beforeDir="false" afterPath="$PROJECT_DIR$/../11.BlackJack(BASIC)/library.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../64.blog-final(Authentification+Deployement)/.idea/64.blog-with-users.iml" beforeDir="false" afterPath="$PROJECT_DIR$/../64.blog-final(Authentification+Deployement)/.idea/64.blog-with-users.iml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../64.blog-final(Authentification+Deployement)/.idea/misc.xml" beforeDir="false" afterPath="$PROJECT_DIR$/../64.blog-final(Authentification+Deployement)/.idea/misc.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../81.The Morse code Translator(PORTFOLIO)/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/../81.The Morse code Translator(PORTFOLIO)/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../82.Portfolio Website/.gitignore" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../82.Portfolio Website/.idea/82.Portfolio Website.iml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../82.Portfolio Website/.idea/discord.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../82.Portfolio Website/.idea/inspectionProfiles/Project_Default.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../82.Portfolio Website/.idea/inspectionProfiles/profiles_settings.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../82.Portfolio Website/.idea/misc.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../82.Portfolio Website/.idea/modules.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../82.Portfolio Website/.idea/vcs.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../82.Portfolio Website/.idea/workspace.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../82.Portfolio Website/README.md" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../82.Portfolio Website/server.py" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../82.Portfolio Website/static/css/custom-styles.css" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../82.Portfolio Website/static/custom-js.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../82.Portfolio Website/static/images/CV.pdf" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../82.Portfolio Website/static/images/bg.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../82.Portfolio Website/static/images/blog.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../82.Portfolio Website/static/images/icon.ico" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../82.Portfolio Website/static/vid/bg.mp4" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../82.Portfolio Website/templates/contact.html" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../82.Portfolio Website/templates/footer.html" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../82.Portfolio Website/templates/header.html" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../82.Portfolio Website/templates/index.html" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../82.Portfolio Website/templates/portfolio.html" beforeDir="false" />
+    </list>
+    <option name="SHOW_DIALOG" value="false" />
+    <option name="HIGHLIGHT_CONFLICTS" value="true" />
+    <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
+    <option name="LAST_RESOLUTION" value="IGNORE" />
+  </component>
+  <component name="FileTemplateManagerImpl">
+    <option name="RECENT_TEMPLATES">
+      <list>
+        <option value="Python Script" />
+      </list>
+    </option>
+  </component>
+  <component name="Git.Settings">
+    <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$/.." />
+  </component>
+  <component name="MarkdownSettingsMigration">
+    <option name="stateVersion" value="1" />
+  </component>
+  <component name="ProjectId" id="2OxfSEfv20aDqOm98o1xKvMAnhQ" />
+  <component name="ProjectViewState">
+    <option name="hideEmptyMiddlePackages" value="true" />
+    <option name="showLibraryContents" value="true" />
+  </component>
+  <component name="PropertiesComponent">{
+  &quot;keyToString&quot;: {
+    &quot;RunOnceActivity.OpenProjectViewOnStart&quot;: &quot;true&quot;,
+    &quot;RunOnceActivity.ShowReadmeOnStart&quot;: &quot;true&quot;,
+    &quot;dart.analysis.tool.window.visible&quot;: &quot;false&quot;,
+    &quot;settings.editor.selected.configurable&quot;: &quot;preferences.lookFeel&quot;
+  }
+}</component>
+  <component name="RecentsManager">
+    <key name="MoveFile.RECENT_KEYS">
+      <recent name="C:\Users\AslaN\Documents\100Days100Projects\83.Tic Tac Toe\img" />
+    </key>
+  </component>
+  <component name="SpellCheckerSettings" RuntimeDictionaries="0" Folders="0" CustomDictionaries="0" DefaultDictionary="application-level" UseSingleDictionary="true" transferred="true" />
+  <component name="TaskManager">
+    <task active="true" id="Default" summary="Default task">
+      <changelist id="f1c862cf-06af-4903-b396-fcad83c6c176" name="Changes" comment="" />
+      <created>1682507152494</created>
+      <option name="number" value="Default" />
+      <option name="presentableId" value="Default" />
+      <updated>1682507152494</updated>
+    </task>
+    <servers />
+  </component>
+</project>

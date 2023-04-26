@@ -4,9 +4,7 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="de7dd863-ea0b-4045-93b2-d44c52dd2c4d" name="Changes" comment="">
-      <change afterPath="$PROJECT_DIR$/../82.Portfolio Website/server.py" afterDir="false" />
-    </list>
+    <list default="true" id="de7dd863-ea0b-4045-93b2-d44c52dd2c4d" name="Changes" comment="" />
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
     <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
@@ -38,7 +36,7 @@
     "RunOnceActivity.OpenProjectViewOnStart": "true",
     "RunOnceActivity.ShowReadmeOnStart": "true",
     "dart.analysis.tool.window.visible": "false",
-    "last_opened_file_path": "C:/Users/AslaN/Documents/100Days100Projects/82.Portfolio Website",
+    "last_opened_file_path": "C:/Users/AslaN/Documents/100Days100Projects/64.blog-final(Authentification+Deployement)",
     "settings.editor.selected.configurable": "com.jetbrains.python.configuration.PyActiveSdkModuleConfigurable"
   }
 }]]></component>
