@@ -1,4 +1,8 @@
 ## A website to show off my skills and the things I built.
+
+![Image of My Project](https://i.imgur.com/VkcJL1H.png)
+
+
 This project is a website designed to showcase your skills and the projects you've built. The website is built using Flask and hosted on the OnRender platform.
 
 
