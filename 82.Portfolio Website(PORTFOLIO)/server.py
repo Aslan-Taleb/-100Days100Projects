@@ -13,7 +13,7 @@ app = Flask(__name__)
 app.secret_key = os.getenv("SECRET_KEY")
 response = requests.get('https://api.npoint.io/769606a80bbde3ea751f')
 all_projects = response.json()
-SECRET_KEY = os.getenv("SECRET_KEY")
+SECRET_KEY = "fsdfsdf"
 MY_EMAIL = os.getenv("MY_EMAIL")
 MY_PASSWORD = os.getenv("MY_PASSWORD")
 
@@ -45,11 +45,12 @@ def contact():
     if request.method == "POST":
         data = request.form
         if data["name"] and data["email"] and data["message"] != "":
-            send_mail((data["name"]),
-                      (data["email"]),
-                      (data["phone"]),
-                      (data["message"]))
-            return render_template("contact.html", msg_sent=True)
+            try:
+                send_mail(data["name"], data["email"], data["phone"], data["message"])
+                return render_template("contact.html", msg_sent=True)
+            except Exception as e:
+                flash("An error occurred while sending the message: {}".format(str(e)))
+                return render_template("contact.html", msg_sent=False)
         else:
             flash("You can't send a message without filling name, email and message fields.")
             return render_template("contact.html", msg_sent=False)
