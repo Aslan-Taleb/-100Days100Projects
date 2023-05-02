@@ -11,9 +11,8 @@ lxml
 requests
 Getting Started
 Clone this repository
-Install the required dependencies using pip install -r requirements.txt
 Run the program using python typing_speed_game.py
-How to Play
+## How to Play:
 Press the "Start" button to begin the game.
 Type the words shown on the screen as quickly and accurately as possible.
 The game will end when all words have been typed.
