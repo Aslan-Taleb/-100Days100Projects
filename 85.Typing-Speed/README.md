@@ -23,4 +23,4 @@ Press the "Restart" button to play again.
 
 ![Menu Screen](https://i.imgur.com/2up1zCJ.png)
 ![Game Screen](https://i.imgur.com/dh8zbrj.png)
-![Instruction](https://i.imgur.com/dh8zbrj.png)
+![Instruction](https://imgur.com/3404PRt)
