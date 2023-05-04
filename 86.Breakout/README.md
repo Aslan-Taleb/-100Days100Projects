@@ -1,6 +1,6 @@
 ## BREAKOUT
 
-![Alt text](https://i.imgur.com/6IRiT1z.gif)
+![Alt text](https://i.imgur.com/7lt3WZa.png)
 
 This code is a python implementation of the popular game Breakout. The game consists of a player controlling a paddle that moves horizontally at the bottom of the screen. The player aims to break all the bricks present on the screen by bouncing a ball off the paddle and the bricks. If the ball falls below the paddle, the player loses one of three lives. The game is won when all the bricks are destroyed.
 
