@@ -25,8 +25,11 @@ Click on the screen to move the paddle to that location
 ## Code Structure
 
 main.py: Contains the main game loop and integrates all the game components
+
 player.py: Contains the code for the player paddle
+
 ball.py: Contains the code for the game ball
+
 blocks.py: Contains the code for the game blocks
+
 score.py: Contains the code for the score and lives display
-library.py: Contains the import statements and the victory(), game_over(), and button_play_again() functions used in the main game loop
