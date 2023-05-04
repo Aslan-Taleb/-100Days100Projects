@@ -1,6 +1,6 @@
 ## Zillow to Google Form Scraper and Form Filler
 
-![Image of My Project](https://i.imgur.com/6IRiT1z.gifv)
+![Image of My Project](https://i.imgur.com/6IRiT1z.gif)
 
 This program is designed to scrape rental listings from Zillow and automatically fill out a Google Form with the information.
 
