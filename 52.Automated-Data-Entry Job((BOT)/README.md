@@ -1,7 +1,7 @@
-## Zillow to Google Form Scraper and Form Filler
+## Automate Rental Listings Extraction and Form Filling
 
 ![Image of My Project](https://i.imgur.com/6IRiT1z.gif)
-
+(here i made the extraction from the website Zillow)
 This program is designed to scrape rental listings from Zillow and automatically fill out a Google Form with the information.
 
 ## Requirements
