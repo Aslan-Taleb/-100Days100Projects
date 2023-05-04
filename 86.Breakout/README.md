@@ -7,7 +7,9 @@ This code is a python implementation of the popular game Breakout. The game cons
 ## Prerequisites
 
 Python 3.x
+
 Turtle Library
+
 Pygame Library
 
 ## Getting Started
