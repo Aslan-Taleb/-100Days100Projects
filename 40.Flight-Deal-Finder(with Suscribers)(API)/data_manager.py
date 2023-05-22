@@ -4,21 +4,17 @@ import requests
 class DataManager:
     def __init__(self, new_fly: tuple):
         self.new_fly = new_fly
-        self.token = "***"
+        self.token = "bbvbgfhehfgshdtjjyrzj"
 
     def edit(self):
         # Define variables
         sheet_url_to_get = "https://api.sheety.co/52e4797d4ba4a030a600379c091918dd/flightDeals/prices"
         sheet_url_to_put = "https://api.sheety.co/52e4797d4ba4a030a600379c091918dd/flightDeals/prices"
         search_value = self.new_fly[0]
-
-        # Set up headers with authentication
         headers = {
             "Authorization": f"Bearer {self.token}",
             "Content-Type": "application/json"
         }
-
-        # Fetch all rows
         response = requests.get(sheet_url_to_get, headers=headers)
         if response.status_code == 200:
             data = response.json()["prices"]

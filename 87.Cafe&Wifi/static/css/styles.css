@@ -1,0 +1,144 @@
+.image_logo {
+    width: 50px;
+}
+
+/* Navigation Bar */
+
+.navbar {
+    background-color: rgba(33,
+            37,
+            41);
+}
+
+.navbar-brand {
+    font-family: "Ubuntu";
+    font-size: 2.5rem;
+    font-weight: bold;
+}
+
+
+
+.nav-item {
+    padding: 0 18px;
+    padding-bottom: 5%;
+}
+
+.nav-link {
+    font-size: 2rem;
+    font-family: Montserrat-Light;
+}
+
+.container-center {
+    align-items: center;
+}
+
+.card-text {
+    color: white;
+}
+
+.project-poster {
+    position: relative;
+    display: inline-block;
+    width: 300px;
+    height: 400px;
+    margin: 1%;
+    background-size: cover;
+    background-position: center;
+    transition: transform 0.5s;
+    margin-left: 5%;
+}
+
+.project-poster .poster-back {
+    position: absolute;
+    top: 0;
+    left: 0;
+    right: 0;
+    bottom: 0;
+    background-color: rgba(0, 0, 0, 0.8);
+    color: white;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    opacity: 0;
+    transition: opacity 0.5s;
+}
+
+.project-poster:hover .poster-back {
+    opacity: 1;
+}
+
+.project-poster h3,
+.project-poster h4 {
+    margin: 0;
+}
+
+.project-poster ul {
+    list-style: none;
+    padding: 0;
+    margin-top: 20px;
+}
+
+.project-poster li {
+    display: flex;
+    align-items: center;
+    margin-bottom: 10px;
+}
+
+.project-poster li span:first-child {
+    margin-right: 10px;
+}
+
+.project-poster a {
+    color: white;
+    text-decoration: none;
+    border: 1px solid white;
+    padding: 10px 20px;
+    margin-top: 10px;
+    transition: background-color 0.5s, color 0.5s;
+    display: block;
+    text-align: center;
+}
+
+.project-poster a:hover {
+    background-color: white;
+    color: black;
+}
+
+.row {
+    display: flex;
+    flex-wrap: wrap;
+    margin-left: 2%;
+}
+
+.container {
+    margin-top: 40px;
+}
+
+.text-center {
+    margin-bottom: 40px;
+}
+
+.display-4 {
+    font-size: 2.5rem;
+    font-weight: bold;
+    color: #333;
+}
+
+.display-5 {
+    font-size: 1.8rem;
+    color: #666;
+}
+
+.text-xl {
+    font-size: 1.5rem;
+}
+
+.view-link {
+    font-size: 1.2rem;
+    /* Adjust the font size as desired */
+}
+
+.icon-black {
+    color: black;
+}

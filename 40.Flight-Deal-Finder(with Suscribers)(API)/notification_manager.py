@@ -29,15 +29,13 @@ class NotificationManager:
         password = "tu_pense"
         # Connect to the SMTP server using a secure connection
         smtp_server = "smtp.gmail.com"
-        # smtp_port = 587
-        # connection = smtplib.SMTP(smtp_server, smtp_port)
-        # connection.starttls()
-        # Login
-        # connection.login(user=my_email, password=password)
-        # test email
+        smtp_port = 587
+        connection = smtplib.SMTP(smtp_server, smtp_port)
+        connection.starttls()
+        connection.login(user=my_email, password=password)
         for customer in self.to_who:
-            # connection.sendmail(from_addr=my_email, to_addrs=customer,
-            #                   msg=f"Subject:New Deal🦁️\n\n{self.message_to_send}")
+            connection.sendmail(from_addr=my_email, to_addrs=customer,
+                              msg=f"Subject:New Deal🦁️\n\n{self.message_to_send}")
             print("to: " + customer + "\n")
         print("i sent : " + self.message_to_send + "\n\n")
-        # connection.quit()
+        connection.quit()

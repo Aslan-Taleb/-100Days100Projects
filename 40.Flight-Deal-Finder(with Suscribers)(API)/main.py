@@ -8,7 +8,7 @@ WHERE_TO_GO = ['DPS', 'ORN', 'RKV', 'HND']
 
 # Affichage du message de bienvenue et du nom de l'application
 print("=" * 50)
-print("Bienvenue dans l'application 'AslaN Flight Deal Finder' !")
+print("Welcome To 'AslaN Flight Deal Finder' !")
 print("=" * 50)
 
 
@@ -51,11 +51,7 @@ def main():
             mail_or_not = data_manager.edit()
             if mail_or_not:
                 notification_manager.message_to_send = the_mail
-                print("=" * 50)
-                # notification_manager.send_mail()
-                print("=" * 50)
-                # notification_manager.send_mail()
-                # mail envoyé ! j'ai enlevé mes identifiants car Github
+                notification_manager.send_mail()
     print("All flights have been checked.")
 
 

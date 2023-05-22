@@ -12,7 +12,7 @@ class FlightSearch:
         # Set up variables for API request
         self.date_from = ""  # TODAY
         self.date_to = ""  # +6 month
-        self.api_key = "***"
+        self.api_key = "545ugOg9mKi-pysvfDzNsR6XGM44LVtY"
 
     # Set up headers and parameters
     def search(self):

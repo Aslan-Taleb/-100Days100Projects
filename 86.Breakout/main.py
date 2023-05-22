@@ -11,7 +11,6 @@ def victory():
     pen.hideturtle()
     pen.goto(0, 0)
     pen.write("VICTORY", align="center", font=("Courier", 50, "normal"))
-    button_play_again()
 
 
 def game_over():
@@ -24,18 +23,6 @@ def game_over():
     pen.hideturtle()
     pen.goto(0, 0)
     pen.write("DEFEAT", align="center", font=("Courier", 50, "normal"))
-    button_play_again()
-
-
-def button_play_again():
-    # Create the Play Again button
-    play_again_button = Turtle()
-    play_again_button.color("white")
-    play_again_button.penup()
-    # play_again_button.hideturtle()
-    play_again_button.goto(0, -50)
-    play_again_button.write("Play Again", align="center",
-                            font=("Courier", 20, "normal"))
 
 
 def main():
