@@ -9,6 +9,9 @@ from flask_wtf import FlaskForm
 from wtforms import StringField, BooleanField
 from wtforms.validators import DataRequired, URL
 from flask_login import UserMixin, login_user, LoginManager, login_required, current_user, logout_user
+from wtforms import StringField, SubmitField, PasswordField
+import smtplib
+from flask import url_for
 
 
 app = Flask(__name__)
@@ -66,6 +69,7 @@ class CafeForm(FlaskForm):
     has_sockets = BooleanField('Has Sockets')
     can_take_calls = BooleanField('Can Take Calls')
     coffee_price = StringField('Coffee Price')
+    submit = SubmitField("Validate")
 
 
 @app.route('/')
@@ -96,9 +100,28 @@ def post_new_cafe():
     return render_template("add.html", form=form)
 
 
-@app.route("/report-closed/<int:cafe_id>", methods=["DELETE"])
+@app.route("/reported/<cafe_id>")
 def delete_cafe(cafe_id):
-    pass
+    the_cafe = Cafe.query.get(cafe_id)
+    # my_email = ""
+    # password = ""
+    # # Connect to the SMTP server using a secure connection
+    # smtp_server = "smtp.gmail.com"
+    # smtp_port = 587
+    # connection = smtplib.SMTP(smtp_server, smtp_port)
+    # connection.starttls()
+    # # Login
+    # connection.login(user=my_email, password=password)
+    # test email
+
+    message = (
+        f"Cafe Reported ! \n {cafe_id}\n{the_cafe.name}\nreported Closed !")
+    print(message)
+    # connection.sendmail(from_addr=my_email,
+    #                     to_addrs=my_email, msg=f"{message}")
+    # connection.quit()
+
+    return redirect(url_for('home'))
 
 
 if __name__ == "__main__":

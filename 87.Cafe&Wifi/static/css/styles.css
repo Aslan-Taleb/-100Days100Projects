@@ -142,3 +142,45 @@
 .icon-black {
     color: black;
 }
+
+.lead {
+    font-size: 20px;
+    margin-bottom: 20px;
+}
+
+.lead {
+    font-size: 20px;
+    margin-bottom: 20px;
+}
+
+.my-form label {
+    font-weight: bold;
+}
+
+.my-form input[type="text"],
+.my-form input[type="email"],
+.my-form textarea {
+    width: 100%;
+    padding: 10px;
+    margin-bottom: 20px;
+    border: 1px solid #ccc;
+    border-radius: 4px;
+    box-sizing: border-box;
+}
+
+.my-form textarea {
+    height: 150px;
+}
+
+.my-form .btn-primary {
+    background-color: #3879db;
+    border: none;
+    border-radius: 4px;
+    padding: 12px 24px;
+    font-size: 16px;
+    cursor: pointer;
+}
+
+.my-form .btn-primary:hover {
+    background-color: #45a049;
+}
