@@ -1,12 +1,10 @@
 <p align="center">
 <img width="" src="https://media.giphy.com/media/kPVTbiTORIopy/giphy.gif" align="center" alt="gif" />
-<h1 align="center">100 Days of Python 🐍 
+<h1 align="center">Learning-Python 🐍 
 </h1>
 </p>
 
-I'm doing "100 Days of Code - The Complete Python Pro Bootcamp for 2023" course from Udemy.
-Since my goal is to master Python, I chose to take this course in the hope it would provide more structure and better
-guidance than I was getting while "self-learning".
+I am currently enrolled in the "100 Days of Code - The Complete Python Pro Bootcamp for 2023" course on Udemy. This course aligns perfectly with my goal of mastering Python. Additionally, I am actively working on personal projects and solving LeetCode exercises to enhance my skills.
 
 
 100 projects in 100 days. All the personal projects for Great professor and great course, really recommend it:
