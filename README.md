@@ -10,7 +10,6 @@ I am currently enrolled in the "100 Days of Code - The Complete Python Pro Bootc
 100 projects in 100 days. All the personal projects for Great professor and great course, really recommend it:
 [100 Days of Code - The Complete Python Pro Bootcamp for 2023](https://www.udemy.com/course/100-days-of-code).
 
-![A beautiful wallpaper](ressources/wallpaper.png)
 
 
 ## 👨🏻‍🎓 Beginner : 
