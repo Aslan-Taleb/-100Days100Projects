@@ -18,9 +18,6 @@ def main():
             clear()
         
     print("Thanks for playing!")
-        
-
-    
-    
+       
     
 main()
