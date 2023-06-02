@@ -1,0 +1,25 @@
+{% include "header.html" %} {% import "bootstrap/wtf.html" as wtf %} {% block
+content %}
+<div class="container">
+  <div class="row">
+    <div class="col-lg-8 col-md-10 mx-auto">
+      <p class="lead">
+        Let freelancers, digital nomads, and other remote workers know about a
+        new work-friendly venue!
+      </p>
+
+      <!-- Contact Form - Enter your email address on line 19 of the mail/contact_me.php file to make this form work. -->
+      <!-- WARNING: Some web hosts do not allow emails to be sent through forms to common mail hosts like Gmail or Yahoo. It's recommended that you use a private domain email address! -->
+      <!-- To use the contact form, your site must be on a live web host with PHP! The form will not work locally! -->
+      <div class="my-form">
+        {% with messages = get_flashed_messages() %} {% if messages %} {% for
+        message in messages %}
+        <p style="color: red">{{ message }}</p>
+        {% endfor %} {% endif %} {% endwith %} {{ wtf.quick_form(form,
+        novalidate=True, button_map={"submit": "primary"}) }}
+      </div>
+      <br />
+    </div>
+  </div>
+</div>
+{% include "footer.html" %} {% endblock %}

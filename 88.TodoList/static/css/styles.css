@@ -1,0 +1,212 @@
+.image_logo {
+    width: 25px;
+}
+
+.body {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+}
+
+#Formhere {
+    width: 40%;
+    height: 3.2rem;
+    font-size: large;
+
+    margin-left: 30%;
+
+}
+
+.mybutton1 {
+    margin-bottom: 50%;
+    width: 30%;
+    margin-left: 30%;
+    width: 20%;
+}
+
+.mybutton2 {
+    margin-bottom: 50%;
+    width: 20%;
+}
+
+/* Navigation Bar */
+
+.navbar {
+    background-color: #343a40;
+}
+
+.navbar-brand {
+    font-family: "Ubuntu";
+    font-size: 2.5rem;
+    font-weight: bold;
+}
+
+
+
+.nav-item {
+    padding: 0 18px;
+    padding-bottom: 5%;
+}
+
+.nav-link {
+    font-size: 2rem;
+    font-family: Montserrat-Light;
+}
+
+.container-center {
+    align-items: center;
+}
+
+.card-text {
+    color: white;
+}
+
+.project-poster {
+    position: relative;
+    display: inline-block;
+    width: 300px;
+    height: 400px;
+    margin: 1%;
+    background-size: cover;
+    background-position: center;
+    transition: transform 0.5s;
+    margin-left: 5%;
+}
+
+.project-poster .poster-back {
+    position: absolute;
+    top: 0;
+    left: 0;
+    right: 0;
+    bottom: 0;
+    background-color: rgba(0, 0, 0, 0.8);
+    color: white;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    opacity: 0;
+    transition: opacity 0.5s;
+}
+
+.project-poster:hover .poster-back {
+    opacity: 1;
+}
+
+.project-poster h3,
+.project-poster h4 {
+    margin: 0;
+}
+
+.project-poster ul {
+    list-style: none;
+    padding: 0;
+    margin-top: 20px;
+}
+
+.project-poster li {
+    display: flex;
+    align-items: center;
+    margin-bottom: 10px;
+}
+
+.project-poster li span:first-child {
+    margin-right: 10px;
+}
+
+.project-poster a {
+    color: white;
+    text-decoration: none;
+    border: 1px solid white;
+    padding: 10px 20px;
+    margin-top: 10px;
+    transition: background-color 0.5s, color 0.5s;
+    display: block;
+    text-align: center;
+}
+
+.project-poster a:hover {
+    background-color: white;
+    color: black;
+}
+
+.row {
+    display: flex;
+    flex-wrap: wrap;
+    margin-left: 2%;
+}
+
+.container {
+    margin-top: 40px;
+}
+
+.text-center {
+    margin-bottom: 40px;
+}
+
+.display-4 {
+    font-size: 2.5rem;
+    font-weight: bold;
+    color: #333;
+}
+
+.display-5 {
+    font-size: 1.8rem;
+    color: #666;
+}
+
+.text-xl {
+    font-size: 1.5rem;
+}
+
+.view-link {
+    font-size: 1.2rem;
+    /* Adjust the font size as desired */
+}
+
+.icon-black {
+    color: black;
+}
+
+.lead {
+    font-size: 20px;
+    margin-bottom: 20px;
+}
+
+.lead {
+    font-size: 20px;
+    margin-bottom: 20px;
+}
+
+.my-form label {
+    font-weight: bold;
+}
+
+.my-form input[type="text"],
+.my-form input[type="email"],
+.my-form textarea {
+    width: 100%;
+    padding: 10px;
+    margin-bottom: 20px;
+    border: 1px solid #ccc;
+    border-radius: 4px;
+    box-sizing: border-box;
+}
+
+.my-form textarea {
+    height: 150px;
+}
+
+.my-form .btn-primary {
+    background-color: #3879db;
+    border: none;
+    border-radius: 4px;
+    padding: 12px 24px;
+    font-size: 16px;
+    cursor: pointer;
+}
+
+.my-form .btn-primary:hover {
+    background-color: #45a049;
+}
