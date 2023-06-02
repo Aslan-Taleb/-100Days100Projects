@@ -4,10 +4,11 @@
 </h1>
 </p>
 
-I am currently enrolled in the "100 Days of Code - The Complete Python Pro Bootcamp for 2023" course on Udemy. This course aligns perfectly with my goal of mastering Python. Additionally, I am actively working on personal projects and solving LeetCode exercises to enhance my skills.
+I am currently enrolled in the "100 Days of Code - The Complete Python Pro Bootcamp for 2023" course on Udemy.
+This course aligns perfectly with my goal of mastering Python. Additionally, I am actively working on personal projects and solving LeetCode exercises to enhance my skills.
 
 
-really recommend it:
+Really recommend it:
 [100 Days of Code - The Complete Python Pro Bootcamp for 2023](https://www.udemy.com/course/100-days-of-code).
 
 
