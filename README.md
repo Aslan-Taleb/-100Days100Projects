@@ -8,7 +8,7 @@ I finished the "100 Days of Code - The Complete Python Pro Bootcamp for 2023" co
 This course aligns perfectly with my goal of mastering Python. Additionally, I am  worked on personal projects and solving LeetCode exercises to enhance my skills.
 
 ## my certification : 
-[CERTIFICATION](certif.jpg)
+![CERTIFICATION](certif.jpg)
 
 Really recommend it:
 [100 Days of Code - The Complete Python Pro Bootcamp for 2023](https://www.udemy.com/course/100-days-of-code).
