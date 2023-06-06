@@ -15,7 +15,6 @@ app.config["SQLALCHEMY_DATABASE_URI"] = "sqlite:///new-books-collection.db"
 db = SQLAlchemy(app)
 API_KEY = "c82c4a923ca7725a8f6a8dd64891fff8"
 
-
 class Movie(db.Model):
     id = db.Column(db.Integer, primary_key=True)
     title = db.Column(db.String(250), unique=True, nullable=False)

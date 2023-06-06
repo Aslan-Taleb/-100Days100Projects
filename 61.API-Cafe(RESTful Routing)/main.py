@@ -25,6 +25,7 @@ class Cafe(db.Model):
     can_take_calls = db.Column(db.Boolean, nullable=False)
     coffee_price = db.Column(db.String(250), nullable=True)
 
+
     def to_dict(self):
         dictionary = {}
         # Loop through each column in the data record

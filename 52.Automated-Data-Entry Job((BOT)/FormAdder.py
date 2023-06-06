@@ -14,7 +14,6 @@ class FormAdder:
         self.links = links
         self.driver = self.get_driver()
         self.get_page()
-
     def get_driver(self):
         path_driver = "C:\Program Files (x86)\ChromeDriver\chromedriver.exe"
         chrome_driver_path = path_driver

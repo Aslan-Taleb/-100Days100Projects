@@ -11,7 +11,6 @@ print("=" * 50)
 print("Welcome To 'AslaN Flight Deal Finder' !")
 print("=" * 50)
 
-
 def register_if_not():
     existing_account = input("Do you have an account with us? (y/n) ")
     if existing_account.lower() == 'y':

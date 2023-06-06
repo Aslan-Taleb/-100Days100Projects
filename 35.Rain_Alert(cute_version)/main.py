@@ -6,5 +6,4 @@ def main():
     status = is_it_gonna_rain(quote, name)
     print(status)
 
-
 main()
