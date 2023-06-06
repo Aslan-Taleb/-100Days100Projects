@@ -27,7 +27,7 @@ def main():
             stop = True
         test = False
     print("Goodbye ! ")
-    
+
 main()
         
 
