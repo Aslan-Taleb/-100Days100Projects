@@ -1,7 +1,0 @@
-{% extends 'bootstrap/base.html' %} {% block styles %} {{ super() }}
-<link
-  rel="stylesheet"
-  href="{{ url_for('static', filename='css/styles.css') }}"
-/>
-{% endblock %} {% block title %}Check{% endblock %} {% block content %} {%
-include "gallery.html" %}{% include "footer.html" %} {% endblock %}
