@@ -4,8 +4,11 @@
 </h1>
 </p>
 
-I finished the "100 Days of Code - The Complete Python Pro Bootcamp for 2023" course on Udemy.
-This course aligns perfectly with my goal of mastering Python. Additionally, I worked on personal projects and solving LeetCode exercises to enhance my skills.
+I completed the "100 Days of Code - The Complete Python Pro Bootcamp for 2023" course on Udemy. This course perfectly aligned with my goal of mastering Python. Additionally, I worked on personal projects and solved LeetCode exercises to improve my skills.
+
+In my GitHub repository, I've included only the projects I developed individually, and I believe they're suitable for showcasing in a portfolio.
+
+You can also check out my portfolio website: [here](https://aslan-taleb.onrender.com/). Please note that the website might take around 5-6 seconds to load initially, so your patience is appreciated.
 
 ## My Certification: 
 
