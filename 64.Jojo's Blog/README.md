@@ -3,6 +3,7 @@
 ![Image of My Project](https://i.imgur.com/legQXJt.png)
 
 Jojo's Blog is a blogging platform based on the theme of Jojo's Bizarre Adventure where users can create accounts, make comments, add/delete/edit posts, contact, and more.
+
 LINK : https://jojo-91pr.onrender.com
 
 
@@ -17,13 +18,21 @@ Gravatar support for user avatars
 ## Technologies Used
 
 Flask
+
 Flask-Bootstrap
+
 Flask-CKEditor
+
 Flask-Gravatar
+
 Flask-Login
+
 Flask-SQLAlchemy
+
 SQLAlchemy
+
 Werkzeug
+
 ## Installation:
 
 Clone the repository:
@@ -54,8 +63,11 @@ flask db upgrade
 Start the application:
 
 arduino
+
 flask run
+
 Open your web browser and go to:
+
 arduino
 http://localhost:5000/
 Register for an account or log in if you already have one.
