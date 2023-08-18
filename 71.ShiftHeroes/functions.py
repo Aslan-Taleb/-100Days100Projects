@@ -2,7 +2,7 @@ import requests
 import json
 
 # Replace this token with your actual API token
-token = "4037c3a3e1d4fb6cd1238c8897e29598"
+token = "***"
 headers = {'Authorization': 'Bearer ' + token}
 
 def get_available(type_planning="daily"):
