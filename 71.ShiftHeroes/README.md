@@ -2,7 +2,9 @@
 
 ## "Shift Heroes" Challenge: Automating Shift Reservations
 
-This repository contains my personal solution to the challenge posed by the YouTuber Harry Jmg. The challenge involved automating the process of shift scheduling and reservations using the [!Shift Heroes](https://shiftheroes.fr/videos) API. In this document, I will present my solution, explain how it works, and describe how it tackles the challenge.
+This repository contains my personal solution to the challenge posed by the YouTuber Harry Jmg. The challenge involved automating the process of shift scheduling and reservations using the [Shift Heroes](https://shiftheroes.fr/videos) API. 
+
+In this documentI will present my solution, explain how it works, and describe how it tackles the challenge.
 
 ## Introduction
 
