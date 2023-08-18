@@ -37,12 +37,16 @@ Werkzeug
 
 Clone the repository:
 bash
+
 git clone https://github.com/Aslan-Taleb/Jojo-s-Blog
 
 Navigate to the project directory:
 bash
+
 cd jojos-blog
+
 Install the required packages:
+
 pip install -r requirements.txt
 
 ## Set up the environment variables:
