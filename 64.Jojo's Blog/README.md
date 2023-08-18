@@ -3,6 +3,7 @@
 ![Image of My Project](https://i.imgur.com/legQXJt.png)
 
 Jojo's Blog is a blogging platform based on the theme of Jojo's Bizarre Adventure where users can create accounts, make comments, add/delete/edit posts, contact, and more.
+LINK : https://jojo-91pr.onrender.com
 
 
 ## Features:
@@ -34,9 +35,13 @@ bash
 cd jojos-blog
 Install the required packages:
 pip install -r requirements.txt
+
 ## Set up the environment variables:
+
 arduino
+
 export FLASK_APP=app.py
+
 export FLASK_ENV=development
 
 ## Set up the database:
@@ -47,6 +52,7 @@ flask db upgrade
 ## Usage:
 
 Start the application:
+
 arduino
 flask run
 Open your web browser and go to:
