@@ -9,6 +9,7 @@ I completed the "100 Days of Code - The Complete Python Pro Bootcamp for 2023" c
 In my GitHub repository, I've included only the projects I developed individually, and I believe they're suitable for showcasing in a portfolio.
 
 You can also check out my portfolio website: [here](https://aslan-taleb.onrender.com/).
+
 Please note that this application is hosted on a free service, which may result in longer loading times. It may take approximately 4-5 seconds for the application to fully load.
 
 ## My Certification: 
