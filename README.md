@@ -10,6 +10,8 @@ In my GitHub repository, I've included only the projects I developed individuall
 
 You can also check out my portfolio website: [here](https://aslan-taleb.onrender.com/).
 
+Please note that this application is hosted on a free service, which may result in longer loading times. It may take approximately 4-5 seconds for the application to fully load.
+
 ## My Certification: 
 
 ![CERTIFICATION](certif.jpg)
