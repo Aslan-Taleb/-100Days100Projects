@@ -5,9 +5,9 @@ from selenium.webdriver.chrome.webdriver import WebDriver
 from selenium.webdriver.common.by import By
 
 
-# CONFIGURATION
+# CONFIGURATIO
 def config(link):
-    path_driver = "C:\Program Files (x86)\ChromeDriver\chromedriver.exe"
+    path_driver = ""
     chrome_driver_path = path_driver
     service = Service(executable_path=chrome_driver_path)
     driver = WebDriver(service=service)

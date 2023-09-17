@@ -4,7 +4,7 @@ import requests
 from bs4 import BeautifulSoup
 
 # HERE
-LINK = ""
+LINK = "https://www.amazon.fr/METAL-BOXE-Jeunesse-unisexe-Junior/dp/B09ZJDZXS4/ref=sr_1_5?crid=3RWU9WV5URYUT&keywords=gant+de+boxe&qid=1694961903&sprefix=gang%2Caps%2C169&sr=8-5"
 PRICE_WANTED = 0
 
 
